@@ -23,6 +23,7 @@ module.exports = function (config) {
             'client/bower_components/headroom.js/dist/headroom.js',
             'client/bower_components/headroom.js/dist/jQuery.headroom.js',
             'client/bower_components/headroom.js/dist/angular.headroom.js',
+            'client/bower_components/owl-carousel2/dist/owl.carousel.js',
             'client/bower_components/angular-mocks/angular-mocks.js',
             // endbower
             'client/app/app.js',

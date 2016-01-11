@@ -1,11 +1,9 @@
 .main-header{
   animation-duration:400ms !important;
-  background-color:black;
+  background-color:transparent;
   box-sizing:border-box;
-  //box-shadow:0 6px 4px rgba(0, 0, 0, 0.2);
   transition:all 250ms ease;
   min-height: 60px;
-  //border-bottom: 1px solid #E5E5E5;
 
   &--fixed {
       position: absolute;
@@ -39,6 +37,7 @@
   &__nav {
     position: relative;
     width: 100%;
+
     &__item {
       margin-top: 10px;
     }

@@ -1,5 +1,5 @@
 ﻿.spotlight{
-    margin-top: 60px;
+    //margin-top: 60px;
     width:100%;
     position:relative;
     height:512px;
@@ -22,9 +22,9 @@
         background-image:url(/assets/images/home/spotlight.jpg);
         background-position:center top;
         background-repeat: no-repeat;
-        background-attachment:fixed;
+        background-attachment:local;
         z-index: -1;
-        @media (min-width:$screen-desktop){
+         @media (min-width:$screen-lg){
             background-size:100% auto;
 
         }
@@ -40,7 +40,7 @@
         }
 
         @media(min-width: $screen-desktop) {
-            margin-left: 160px;
+            margin-left: 180px;
         }
 
         position:absolute;
@@ -59,6 +59,7 @@
         &__tag-line {
             &__title {
                 text-transform:uppercase;
+                font-family: $font-ls;
             }
 
             &__description {
